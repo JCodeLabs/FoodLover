@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodLover | Home</title>
+    <!-- google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom css link -->
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+    <!-- script scrollreveal -->
+    <script src="assets/js/scrollReveal.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <img
+          src="assets/img/logo.png"
+          alt="foodlover logo"
+          class="header__logo-image"
+        />
+        <nav class="header__nav">
+          <ul class="header__nav-links">
+            <li><a href="#" class="header__nav-link">Inicio</a></li>
+            <li><a href="#" class="header__nav-link">Menú</a></li>
+            <li><a href="#" class="header__nav-link">Quiénes somos</a></li>
+            <li><a href="#" class="header__nav-link">Pide en línea</a></li>
+            <li><a href="#" class="header__nav-link">Contacto</a></li>
+          </ul>
+        </nav>
+        <div class="header__right">
+          <button class="btn btn__reserve">
+            Reserva <i class="fa-solid fa-utensils"></i>
+          </button>
+          <i class="fa-solid fa-bars" id="menu__icon"></i>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__container">
+          <div class="image-container">
+            <img
+              src="assets/img/hero__left.jpg"
+              alt="Mujer desayunando"
+              class="hero__image"
+            />
+          </div>
+          <div class="hero__info">
+            <h1 class="hero__title">
+              Únete a nosotros y <span>comienza tu día con</span> energía y
+              alegría .
+            </h1>
+            <p class="hero__legend">
+              En nuestro acogedor oasis gastronómico encontraras sabores que
+              despiertan sonrisas.
+            </p>
+            <div class="hero__btn">
+              <button class="btn btn__invite">
+                <i class="fa-solid fa-arrow-right"></i> Explora nuestro menú
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__container">
+          <img
+            src="assets/img/about.jpg"
+            alt="foodlover store"
+            class="about__image"
+          />
+          <div class="about__info">
+            <h2 class="about__title">Lo que hacemos</h2>
+            <p class="about__text">
+              En <span>Foodlovers</span>, no solo somos un restaurante, somos
+              una familia apasionada por la comida y comprometida con ofrecerte
+              la mejor experiencia gastronómica. Nuestra historia se teje con
+              amor, dedicación y el deseo constante de crear momentos memorables
+              alrededor de la mesa.
+            </p>
+            <p class="about__text">
+              Más que un restaurante, somos una comunidad de foodies que celebra
+              la diversidad de sabores, texturas y culturas culinarias. Nos
+              esforzamos por crear un ambiente acogedor y vibrante donde te
+              sientas como en casa desde el momento en que cruzas nuestras
+              puertas.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="promise">
+        <div class="promise__container">
+          <img
+            src="assets/img/promise2.png"
+            alt="foodlover store"
+            class="promise__image"
+          />
+          <div class="promise__info">
+            <h2 class="promise__title">Compromiso con la Frescura</h2>
+            <p class="promise__text">
+              Seleccionamos cuidadosamente cada ingrediente que utilizamos en
+              nuestra cocina, priorizando los productos frescos y de temporada.
+              Trabajamos en estrecha colaboración con proveedores locales para
+              garantizar la calidad y la procedencia de nuestros alimentos,
+              desde las verduras recién cosechadas hasta los huevos orgánicos y
+              las carnes de la más alta calidad.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="banner">
+        <div class="banner__content"></div>
+      </div>
+      <section class="menu">
+        <div class="menu__container">
+          <h2 class="menu__title">Nuestras delicias</h2>
+          <div class="menu__content">
+            <div class="card">
+              <img
+                class="card__image"
+                src="assets/img/gallery1.png"
+                alt="Huevo Primavera"
+              />
+              <div class="menu__info">
+                <h3 class="card__title">Huevo Primavera</h3>
+                <p class="card__text">
+                  Dos huevos al vapor servidos sobre una cama de lechuga fresca
+                  y tomates cherry cortados por la mitad, acompañados de una
+                  salsa especial de la casa.
+                </p>
+                <div class="cart__price">
+                  <p class="price">$20.000</p>
+                  <i class="fa-solid fa-cart-plus"></i>
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+            <div class="card">
+              <img
+                class="card__image"
+                src="assets/img/gallery2.png"
+                alt="Huevo Primavera"
+              />
+              <div class="menu__info">
+                <h3 class="card__title">Mieli Waffles</h3>
+                <p class="card__text">
+                  Deliciosos waffles caseros acompañados de uvas Isabel y fresas
+                  frescas, bañados en miel dorada para un toque de dulzura
+                  irresistible.
+                </p>
+                <div class="cart__price">
+                  <p class="price">$22.000</p>
+                  <i class="fa-solid fa-cart-plus"></i>
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+            <div class="card">
+              <img
+                class="card__image"
+                src="assets/img/gallery3.png"
+                alt="Huevo Primavera"
+              />
+              <div class="menu__info">
+                <h3 class="card__title">Desayuno Tradicional</h3>
+                <p class="card__text">
+                  Un clásico desayuno con un toque gourmet: huevo al vapor
+                  servido con pan tostado crujiente y una taza humeante de café
+                  recién hecho.
+                </p>
+                <div class="cart__price">
+                  <p class="price">$15.000</p>
+                  <i class="fa-solid fa-cart-plus"></i>
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+            <div class="card">
+              <img
+                class="card__image"
+                src="assets/img/gallery4.png"
+                alt="Huevo Primavera"
+              />
+              <div class="menu__info">
+                <h3 class="card__title">Waffles Frutales</h3>
+                <p class="card__text">
+                  Waffles esponjosos acompañados de uvas Isabel y fresas
+                  frescas, una combinación refrescante y dulce para empezar el
+                  día con energía.
+                </p>
+                <div class="cart__price">
+                  <p class="price">$19.000</p>
+                  <i class="fa-solid fa-cart-plus"></i>
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+            <div class="card">
+              <img
+                class="card__image"
+                src="assets/img/gallery5.png"
+                alt="Huevo Primavera"
+              />
+              <div class="menu__info">
+                <h3 class="card__title">Desayuno Mediterráneo</h3>
+                <p class="card__text">
+                  Dos huevos al vapor acompañados de espárragos frescos, tomates
+                  cherry, y pan árabe integral, todo bañado en nuestras salsas
+                  caseras para una explosión de sabores.
+                </p>
+                <div class="cart__price">
+                  <p class="price">$25.000</p>
+                  <i class="fa-solid fa-cart-plus"></i>
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+            <div class="card">
+              <img
+                class="card__image"
+                src="assets/img/gallery6.png"
+                alt="Huevo Primavera"
+              />
+              <div class="menu__info">
+                <h3 class="card__title">Pancake Fiesta</h3>
+                <p class="card__text">
+                  Pancakes esponjosos servidos con uvas Isabel, frijoles en
+                  salsa de la casa y verduras frescas bañadas en crema casera,
+                  una combinación única y deliciosa.
+                </p>
+                <div class="cart__price">
+                  <p class="price">$23.000</p>
+                  <i class="fa-solid fa-cart-plus"></i>
+                </div>
+              </div>
+            </div>
+            <!-- end card -->
+          </div>
+          <button class="btn btn__menu">
+            Conoce más <i class="fa-solid fa-cookie-bite"></i>
+          </button>
+        </div>
+      </section>
+      <section class="booking">
+        <div class="booking__container">
+          <h2 class="booking__title">Reserva tu espacio</h2>
+          <p class="booking__text">
+            En cualquiera de nuestras 3 sedes podrás organizar y celebrar tus
+            eventos más importantes. También contamos con espacios ideales para
+            reuniones de trabajo o eventos corporativos. Si estás interesado en
+            recibir más información porfavor contáctanos.
+            <span>Haz click en tu sede de interés.</span>
+          </p>
+          <div class="booking__places">
+            <button class="btn btn__place">
+              <i class="fa-solid fa-location-dot"></i> Norte
+            </button>
+            <button class="btn btn__place">
+              <i class="fa-solid fa-location-dot"></i> Centro
+            </button>
+            <button class="btn btn__place">
+              <i class="fa-solid fa-location-dot"></i> Sur
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="blog">
+        <div class="blog__container">
+          <h2 class="blog__title">Nuestros últimos blogs</h2>
+          <div class="blog__content">
+            <article class="entry">
+              <div class="entry__img-container">
+                <img
+                  src="assets/img/blog1.jpg"
+                  alt="Imagen de desayuno saludable"
+                  class="entry__image"
+                />
+              </div>
+              <div class="entry__info">
+                <p class="entry__date">Febrero 5, 2024</p>
+                <h3 class="entry__title">
+                  Los Beneficios de un Desayuno Saludable
+                </h3>
+                <p class="entry__description">
+                  Exploramos los numerosos beneficios para la salud de comenzar
+                  el día con un desayuno nutritivo y equilibrado. Desde aumentar
+                  la energía y la concentración hasta controlar el peso y
+                  mejorar el estado de ánimo, descubrirás por qué el desayuno es
+                  la comida más importante del día.
+                </p>
+                <a href="#" class="entry__btn"
+                  >Continua leyendo...<i
+                    class="fa-solid fa-book-open-reader"
+                  ></i
+                ></a>
+              </div>
+            </article>
+            <!-- blog entry-->
+            <article class="entry">
+              <div class="entry__img-container">
+                <img
+                  src="assets/img/blog2.jpg"
+                  alt="Imagen de desayuno saludable"
+                  class="entry__image"
+                />
+              </div>
+              <div class="entry__info">
+                <p class="entry__date">Febrero 10, 2024</p>
+                <h3 class="entry__title">
+                  Explorando Nuevas Tendencias en Desayunos
+                </h3>
+                <p class="entry__description">
+                  Nos sumergimos en las últimas tendencias culinarias en el
+                  mundo del desayuno. Desde las opciones de desayuno basadas en
+                  plantas hasta las innovadoras combinaciones de ingredientes,
+                  te inspirarás a probar nuevas recetas y sabores para empezar
+                  el día con creatividad y estilo.
+                </p>
+                <a href="#" class="entry__btn"
+                  >Continua leyendo...
+                  <i class="fa-solid fa-book-open-reader"></i
+                ></a>
+              </div>
+            </article>
+            <!-- blog entry-->
+            <article class="entry">
+              <div class="entry__img-container">
+                <img
+                  src="assets/img/blog3.jpg"
+                  alt="Imagen de desayuno saludable"
+                  class="entry__image"
+                />
+              </div>
+              <div class="entry__info">
+                <p class="entry__date">Febrero 15, 2024</p>
+                <h3 class="entry__title">
+                  Secretos de los Mejores Desayunos del Mundo
+                </h3>
+                <p class="entry__description">
+                  Viajamos virtualmente por el mundo para descubrir los secretos
+                  de los desayunos más emblemáticos de diferentes culturas.
+                  Desde el desayuno inglés completo hasta los exquisitos
+                  desayunos japoneses, te sorprenderás con la diversidad y la
+                  riqueza de las tradiciones culinarias matutinas en todo el
+                  mundo.
+                </p>
+                <a href="#" class="entry__btn"
+                  >Continua leyendo...
+                  <i class="fa-solid fa-book-open-reader"></i
+                ></a>
+              </div>
+            </article>
+            <!-- blog entry-->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__content">
+          <div class="footer__logo">
+            <img src="assets/img/footerlogo.png" alt="foodlover logo" />
+            <p class="footer__legend">Síguenos en nuestras redes:</p>
+            <div class="footer__social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-square-x-twitter"></i>
+            </div>
+          </div>
+          <div class="footer__col f__about-us">
+            <h3>Restaurante</h3>
+            <a href="#">Sobre el restaurante</a>
+            <a href="#">Trabaja con nosotros</a>
+          </div>
+          <div class="footer__col f__contact">
+            <h3>Contacto</h3>
+            <a href="#">Contáctenos</a>
+            <a href="#">Factura Electrónica</a>
+            <a href="#">Preguntas frecuentes</a>
+          </div>
+          <div class="footer__col f__faq">
+            <h3>Términos y condiciones</h3>
+            <a href="#">Políticas de tratamiento de datos personales</a>
+            <a href="#">Canal de transparencia</a>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <p>Gaining hands-on coding experience.</p>
+          <p>
+            <span>&copy; 2024 FoodLover.</span> Code and Design by
+            JCodeCraftsman. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- custom script -->
+    <script type="text/javascript" src="assets/js/app.js"></script>
+    <script src="assets/js/customScrollReveal.js"></script>
+  </body>
+</html>
